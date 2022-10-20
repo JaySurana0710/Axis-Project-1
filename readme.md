@@ -24,3 +24,5 @@ After these installs, paste the files inside PayWiz-code to src folder in app.
 To run the webapp, go to react app where src folder is located, open a command prompt there and type 'npm start'.
 
 It will run react scripts and open the webapp in browser at localhost:3000.
+
+Note : You need to change the location of files in paywiz-code for relevant locations.
