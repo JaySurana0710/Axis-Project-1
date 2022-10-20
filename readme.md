@@ -10,4 +10,4 @@ Inorder to run it
     ->npm install md5
 After these installs, paste the files inside PayWiz-code to src folder in app.
 To run the webapp, go to react app where src folder is located, open a command prompt there and type 'npm start'.
-It will run react scripts and open the webapp in browser at localhost:3000
+It will run react scripts and open the webapp in browser at localhost:3000.
