@@ -1,0 +1,90 @@
+*{
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    box-sizing: border-box;
+    font-weight: 500;
+}
+.body{
+  background-color: #05386b;
+  height: 100vh;
+  width:100vw;
+}
+a{
+  text-decoration: none;
+  
+}
+.container{
+  background-color: #5cdb95;
+  border-radius: 2rem;
+  margin-top: 3vh;
+  color:white;
+  display: flex;
+    
+  width: 90vw;
+}
+nav{
+  height:6vh;
+  width:100vw;
+}
+
+.container-fluid{
+  padding-top: 0.7%;
+  background-color: #5cdb95;
+  height: 10vh;
+}
+
+#inputGroup-sizing-default{
+  min-width: 10vw;
+  max-width: 10vw;
+  padding-left: 1.1rem;
+  background-color: #8ee4af;
+  color:#05386b;
+}
+form{
+  width: 30vw;
+  margin-left: 5vw;
+  padding-top: 5vh;
+}
+td,th{
+  color:white;
+  padding: 2vh;
+}
+.searchbox{
+  width: 30vw;
+  margin-left: 20vw;
+  padding-top: 10vh;
+}
+#salbut,#listal,#addbut,#paybut {
+  margin-top:2%;
+  margin-left:2%;
+  margin-bottom:2%;
+  width:5vw;
+  height: 5.5vh;
+  background-color: #05386b;
+  border-color: #05386b;
+  color:#5cdb95;
+}
+#employeeId,#bankId,#salaryId{
+  width:10vw;
+  height:7vh;
+  background-color: #05386b;
+  color:#5cdb95;
+}
+#employeeId::placeholder,#bankId::placeholder,#salaryId::placeholder{
+  color: #5cdb95;
+}
+.searchEmp,.searchBank,.searchSalary{
+  display:flex;
+}
+input[type="text"],input[type="number"],input[type="number"]:enabled,input[type="text"]:enabled {
+  background-color: #05386b;
+  color:#5cdb95;
+}
+input[type="text"],input[type="number"],#inputGroup-sizing-default{
+  border-width: 0;
+  height: 6vh;
+}
+
+.title{
+  color:#05386b;
+}
